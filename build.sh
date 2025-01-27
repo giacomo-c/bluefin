@@ -13,6 +13,7 @@ set -ouex pipefail
 dnf install -y tmux \
   wireshark \
   nmap \
+  netcat
 
 # Use a COPR Example:
 #
