@@ -1,6 +1,7 @@
 # bluefin:latest with minor tweaks and packages
 
 Template:  https://github.com/ublue-os/image-template
+
 From:  https://github.com/ublue-os/bluefin
 
 - install some extra pacakges:
