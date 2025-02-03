@@ -15,6 +15,9 @@ dnf install -y tmux \
   nmap \
   netcat
 
+# install latest rclone
+dnf remove -y rclone
+dnf install -y https://downloads.rclone.org/rclone-current-linux-amd64.rpm
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
