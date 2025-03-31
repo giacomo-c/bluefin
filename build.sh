@@ -22,6 +22,11 @@ dnf install -y https://downloads.rclone.org/rclone-current-linux-amd64.rpm
 ln -rs /usr/bin/rclone /sbin/mount.rclone
 ln -rs /usr/bin/rclone /usr/bin/rclonefs
 
+# Remove google fonts
+
+dnf remove -y \
+google-noto-fonts-all \
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
