@@ -81,6 +81,13 @@ google-noto-sans-sundanese-fonts
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
+# Add LinSSID from COPR
+
+dnf -y copr enable nucleo/linssid
+dnf -y install linssid-ex
+dnf -y copr disable nucleo/linssid
+
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
