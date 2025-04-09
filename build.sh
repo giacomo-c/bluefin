@@ -9,11 +9,6 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-# this installs a package from fedora repos
-dnf install -y wireshark \
-  nmap \
-  netcat
-
 # install latest rclone
 dnf remove -y rclone
 dnf install -y https://downloads.rclone.org/rclone-current-linux-amd64.rpm
