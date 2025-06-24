@@ -17,9 +17,6 @@ dnf install -y https://downloads.rclone.org/rclone-current-linux-amd64.rpm
 ln -rs /usr/bin/rclone /sbin/mount.rclone
 ln -rs /usr/bin/rclone /usr/bin/rclonefs
 
-# Remove bazaar
-dnf remove -y bazaar
-
 # Remove google fonts
 
 dnf remove -y \
