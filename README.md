@@ -1,4 +1,4 @@
-# bluefin-dx:latest with minor tweaks and packages
+# bluefin-dx:stable with minor tweaks and packages
 
 Template:  https://github.com/ublue-os/image-template
 
