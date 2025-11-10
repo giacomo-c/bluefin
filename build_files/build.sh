@@ -87,6 +87,9 @@ dnf -y copr enable nucleo/linssid
 dnf -y install linssid-ex
 dnf -y copr disable nucleo/linssid
 
+# Copy kargs.d keymap config
+
+cp /ctx/usr/lib/bootc/kargs.d/10-keymap.toml /usr/lib/bootc/kargs.d/
 
 #### Example for enabling a System Unit File
 
